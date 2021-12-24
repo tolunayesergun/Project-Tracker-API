@@ -11,7 +11,7 @@ namespace ProjectTracker_API.Controllers
     public class MessageFromBossController : ControllerBase
     {
         [HttpGet]
-        public async Task<IActionResult> Get()
+        public  ActionResult Get()
         {
             var motivationList = new List<string> { 
                 { "Senin almaya cesaret edemediğin riskleri alanlar, senin yaşamak istediğin hayatı yaşarlar." }, 
